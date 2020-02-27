@@ -52,7 +52,9 @@ public class Resistors {
             //the value of the resistor
             double value = (nums[0]*10 + nums[1])*(double)Math.pow(10, nums[2]);
             //output
-            System.out.println(value);
+            System.out.println("You entered " + input);
+            System.out.println("The value of the resistor is: " + value + " Ohms");
+            
         }catch(NullPointerException npe){
             System.exit(0);
         }catch(RuntimeException e){
